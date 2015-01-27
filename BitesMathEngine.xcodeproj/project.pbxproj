@@ -7,8 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A47C73C196D35220078B465 /* BMathEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A47C73A196D35220078B465 /* BMathEngine.cpp */; };
+		9A47C73E196D5E670078B465 /* OpenCL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A47C73D196D5E670078B465 /* OpenCL.framework */; };
+		9A5F7BB91973CD2E007F96DA /* BSignal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A5F7BB71973CD2E007F96DA /* BSignal.cpp */; };
+		9AA82768197931A7006B9A50 /* BComplex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AA82766197931A7006B9A50 /* BComplex.cpp */; };
+		9AA8276E197941EA006B9A50 /* BComplex32Array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AA8276C197941EA006B9A50 /* BComplex32Array.cpp */; };
 		9ADE98C3196ABB3500D83BBE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9ADE98C2196ABB3500D83BBE /* main.cpp */; };
 		9ADE98C5196ABB3500D83BBE /* BitesMathEngine.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9ADE98C4196ABB3500D83BBE /* BitesMathEngine.1 */; };
+		9ADE98D0196ABC7B00D83BBE /* BArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9ADE98CE196ABC7B00D83BBE /* BArray.cpp */; };
+		9ADE98D3196ACFEF00D83BBE /* BFloat32Array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9ADE98D1196ACFEF00D83BBE /* BFloat32Array.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,9 +32,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9A47C73A196D35220078B465 /* BMathEngine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BMathEngine.cpp; sourceTree = "<group>"; };
+		9A47C73B196D35220078B465 /* BMathEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMathEngine.h; sourceTree = "<group>"; };
+		9A47C73D196D5E670078B465 /* OpenCL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenCL.framework; path = ../../../../../../System/Library/Frameworks/OpenCL.framework; sourceTree = "<group>"; };
+		9A5F7BB71973CD2E007F96DA /* BSignal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BSignal.cpp; sourceTree = "<group>"; };
+		9A5F7BB81973CD2E007F96DA /* BSignal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSignal.h; sourceTree = "<group>"; };
+		9AA82766197931A7006B9A50 /* BComplex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BComplex.cpp; sourceTree = "<group>"; };
+		9AA82767197931A7006B9A50 /* BComplex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BComplex.h; sourceTree = "<group>"; };
+		9AA8276C197941EA006B9A50 /* BComplex32Array.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BComplex32Array.cpp; sourceTree = "<group>"; };
+		9AA8276D197941EA006B9A50 /* BComplex32Array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BComplex32Array.h; sourceTree = "<group>"; };
 		9ADE98BF196ABB3500D83BBE /* BitesMathEngine */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BitesMathEngine; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ADE98C2196ABB3500D83BBE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		9ADE98C4196ABB3500D83BBE /* BitesMathEngine.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = BitesMathEngine.1; sourceTree = "<group>"; };
+		9ADE98CE196ABC7B00D83BBE /* BArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BArray.cpp; sourceTree = "<group>"; };
+		9ADE98CF196ABC7B00D83BBE /* BArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BArray.h; sourceTree = "<group>"; };
+		9ADE98D1196ACFEF00D83BBE /* BFloat32Array.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BFloat32Array.cpp; sourceTree = "<group>"; };
+		9ADE98D2196ACFEF00D83BBE /* BFloat32Array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFloat32Array.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A47C73E196D5E670078B465 /* OpenCL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,8 +81,21 @@
 		9ADE98C1196ABB3500D83BBE /* BitesMathEngine */ = {
 			isa = PBXGroup;
 			children = (
+				9A47C73D196D5E670078B465 /* OpenCL.framework */,
 				9ADE98C2196ABB3500D83BBE /* main.cpp */,
 				9ADE98C4196ABB3500D83BBE /* BitesMathEngine.1 */,
+				9ADE98CE196ABC7B00D83BBE /* BArray.cpp */,
+				9ADE98CF196ABC7B00D83BBE /* BArray.h */,
+				9ADE98D1196ACFEF00D83BBE /* BFloat32Array.cpp */,
+				9ADE98D2196ACFEF00D83BBE /* BFloat32Array.h */,
+				9A47C73A196D35220078B465 /* BMathEngine.cpp */,
+				9A47C73B196D35220078B465 /* BMathEngine.h */,
+				9A5F7BB71973CD2E007F96DA /* BSignal.cpp */,
+				9A5F7BB81973CD2E007F96DA /* BSignal.h */,
+				9AA82766197931A7006B9A50 /* BComplex.cpp */,
+				9AA82767197931A7006B9A50 /* BComplex.h */,
+				9AA8276C197941EA006B9A50 /* BComplex32Array.cpp */,
+				9AA8276D197941EA006B9A50 /* BComplex32Array.h */,
 			);
 			path = BitesMathEngine;
 			sourceTree = "<group>";
@@ -117,7 +151,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ADE98D0196ABC7B00D83BBE /* BArray.cpp in Sources */,
 				9ADE98C3196ABB3500D83BBE /* main.cpp in Sources */,
+				9AA8276E197941EA006B9A50 /* BComplex32Array.cpp in Sources */,
+				9A47C73C196D35220078B465 /* BMathEngine.cpp in Sources */,
+				9A5F7BB91973CD2E007F96DA /* BSignal.cpp in Sources */,
+				9AA82768197931A7006B9A50 /* BComplex.cpp in Sources */,
+				9ADE98D3196ACFEF00D83BBE /* BFloat32Array.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +267,7 @@
 				9ADE98CA196ABB3500D83BBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
